@@ -1,13 +1,13 @@
 /* GLOBAL */
 body{
     font-family: sans-serif;
-    background-color: rgb(46, 61, 61);
-    color: rgb(255, 0, 0);
+    background-color: #E3D4C8;
+    color: #532200;
     
 }
 /* HEADER */
 h1{
-    padding: 50px;
+    size: 100ppx;
 }
 
 
