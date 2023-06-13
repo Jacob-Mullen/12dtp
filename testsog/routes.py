@@ -4,17 +4,32 @@ import sqlite3
 
 app =  Flask(__name__)
 
-@app.route('/')
+@app.route('/swing')
 def home():
-    return render_template("home.html", title = "hello world")
+    conn = sqlite3.connect('song.db')
+    cur = conn.cursor()
+    cur.execute('SELECT * FROM song WHERE feel=1 ')
+    results = cur.fetchall()
+    print (results)
+    return render_template("swing.html", title = "swing",results=results)
 
-@app.route('/contact')
+@app.route('/bossa')
 def contact():
-    return render_template("contact.html", title = "contact")
+    conn = sqlite3.connect('song.db')
+    cur = conn.cursor()
+    cur.execute('SELECT * FROM song WHERE feel=2 ')
+    results = cur.fetchall()
+    print (results)
+    return render_template("bossa.html", title = "bossa",results=results)
 
-@app.route('/about')
+@app.route('/samba')
 def about():
-    return render_template("about.html", title = "about")
+    conn = sqlite3.connect('song.db')
+    cur = conn.cursor()
+    cur.execute('SELECT * FROM song WHERE feel=3 ')
+    results = cur.fetchall()
+    print (results)
+    return render_template("samba.html", title = "samba",results=results)
 
 @app.route('/feels')
 def feels():

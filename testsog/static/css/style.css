@@ -3,7 +3,7 @@ body{
     font-family: sans-serif;
     background-color: #E3D4C8;
     color: #532200;
-    
+    background-image: ("sax.jpg");
 }
 /* HEADER */
 h1{
@@ -13,5 +13,9 @@ h1{
 
 /* NAV */
 
+/* main */
+main{
+    background-image: ("static\image\sax.jpg");
+}
 
 /* FOOTER */
