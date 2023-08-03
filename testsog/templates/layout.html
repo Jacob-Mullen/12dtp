@@ -5,15 +5,15 @@
          <title>{{title}}</title>
     </head>
     <body>
-        <div id="rainbow">
-            <header>
-            {% include "nav.html"%}
-            </header>
-            <main>
-            {% block contents %}{% endblock %}
-            </main>
-            <footer>
-            {% include "footer.html" %}
-            </footer>
+    <div id="back">
+            <div id="everything">
+                <header>
+                    {% include "nav.html"%}
+                </header>
+                <main>
+                    {% block contents %}{% endblock %}
+                </main>
         </div>
+    </div>
     </body>
+</html>

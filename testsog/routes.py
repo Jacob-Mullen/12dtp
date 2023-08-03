@@ -22,6 +22,15 @@ def contact():
     print (results)
     return render_template("bossa.html", title = "bossa",results=results)
 
+@app.route('/stand')
+def stand():
+    conn = sqlite3.connect('song.db')
+    cur = conn.cursor()
+    cur.execute('SELECT * FROM info WHERE id=1 ')
+    results = cur.fetchall()
+    print (results)
+    return render_template("stand.html", title = "stand",results=results)
+
 @app.route('/samba')
 def about():
     conn = sqlite3.connect('song.db')
@@ -47,6 +56,7 @@ def pizza(id):
     cur.execute('SELECT * FROM pizza WHERE id=?',(id,))
     pizza=cur.fetchone()
     return render_template ('pizza.html', pizza=pizza)
+
 
 if __name__ == "__main__":
     app.run(debug=True)

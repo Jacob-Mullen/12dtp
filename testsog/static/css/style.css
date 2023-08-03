@@ -1,21 +1,73 @@
 /* GLOBAL */
-body{
-    font-family: sans-serif;
-    background-color: #E3D4C8;
-    color: #532200;
-    background-image: ("sax.jpg");
-}
+
 /* HEADER */
 h1{
-    size: 100ppx;
+    size: 100px;
+
 }
 
 
 /* NAV */
 
 /* main */
-main{
-    background-image: ("static\image\sax.jpg");
+body{
+    font-family: sans-serif;
+    background-color: #E3D4C8;
+    color: #532200;
+    background: url(/static/image/sax.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
+.foreground{
+    margin-right: 25px;
+    padding: 0;
+    width: 1900px;
+    height: 850px;
+    position: fixed;
+    background-color: #E3D4C8;;
+}
+
+.mid{
+    background-color: #532200;
+    color: #E3D4C8;
+    width: 925px;
+    height: 805px;
+    left: 600px;
+    top:100px; 
+    position: fixed;
+}
+
+.sidebar{
+    padding: 0;
+    width: 300px;
+    height: 700px;
+    top:150px; 
+    position: fixed;
+    left: 1550px;
+    background-color: #532200;
+    color: #E3D4C8;
+}
+
+.txt{
+    background-color: #1d0053;
+    color: #E3D4C8;
+    width: 925px;
+    height: 300px;
+    left: 600px;
+    top:250px; 
+    position: fixed;
+}
+
+.rec{
+    background-color: #1d0053;
+    color: #E3D4C8;
+    width: 925px;
+    height: 300px;
+    left: 600px;
+    top:600px; 
+    position: fixed;
+}
 /* FOOTER */
