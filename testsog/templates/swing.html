@@ -1,8 +1,10 @@
 {% extends "layout.html"%}
 {% block contents %}
 {% for item in results %}
-<h2><a href="/stand">
-    {{item[1]}}
-</a></h2>
+<div class="middlebit">
+    <h2><a href="/stand">
+        {{item[1]}}
+    </a></h2>
+</div>
 {% endfor %}
 {% endblock %}

@@ -6,6 +6,11 @@ h1{
 
 }
 
+h3{
+    font-size: 40px;
+    color: #E3D4C8;
+
+}
 
 /* NAV */
 
@@ -22,6 +27,7 @@ body{
 }
 
 .foreground{
+    margin-top: -15px;
     margin-right: 25px;
     padding: 0;
     width: 1900px;
@@ -36,7 +42,7 @@ body{
     width: 925px;
     height: 805px;
     left: 600px;
-    top:100px; 
+    top:115px; 
     position: fixed;
 }
 
@@ -44,7 +50,7 @@ body{
     padding: 0;
     width: 300px;
     height: 700px;
-    top:150px; 
+    top:165px; 
     position: fixed;
     left: 1550px;
     background-color: #532200;
@@ -69,5 +75,16 @@ body{
     left: 600px;
     top:600px; 
     position: fixed;
+}
+
+.middlebit{
+    width: 200px;
+    height: 25px;
+    background-color: #E3D4C8;;
+    margin-left: 920px;
+}
+
+.navbar{
+margin-top: 25px;
 }
 /* FOOTER */
