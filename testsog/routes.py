@@ -26,7 +26,7 @@ def contact():
 def stand():
     conn = sqlite3.connect('song.db')
     cur = conn.cursor()
-    cur.execute('SELECT * FROM info WHERE id=2 ')
+    cur.execute('SELECT * FROM info WHERE id=1 ')
     results = cur.fetchall()
     print (results)
     return render_template("stand.html", title = "stand",results=results)
