@@ -29,7 +29,13 @@ def stand():
     cur.execute('SELECT * FROM info WHERE id=1 ')
     results = cur.fetchall()
     print (results)
-    return render_template("stand.html", title = "stand",results=results)
+    cur.execute('SELECT * FROM recordingimg WHERE id=1 ')
+    image = cur.fetchone()
+    print(image)
+    cur.execute('SELECT * FROM recordingsaud WHERE id=1 ')
+    link = cur.fetchone()
+    print(link)
+    return render_template("stand.html", title = "stand",results=results, image=image, link=link )
 
 @app.route('/samba')
 def about():
