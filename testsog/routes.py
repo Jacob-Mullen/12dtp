@@ -22,11 +22,11 @@ def contact():
     print (results)
     return render_template("bossa.html", title = "bossa",results=results)
 
-@app.route('/stand')
-def stand():
+@app.route('/stand/<int:id>')
+def stand(id):
     conn = sqlite3.connect('song.db')
     cur = conn.cursor()
-    cur.execute('SELECT * FROM info WHERE id=1 ')
+    cur.execute('SELECT * FROM info WHERE id=?',(id,))
     results = cur.fetchall()
     print (results)
     cur.execute('SELECT * FROM recordingimg WHERE id=1 ')
@@ -50,7 +50,7 @@ def about():
 def feels():
     conn = sqlite3.connect('song.db')
     cur = conn.cursor()
-    cur.execute('SELECT * FROM feel')
+    cur.execute('SELECT * FROM song WHERE feel=4 ')
     results = cur.fetchall()
     print (results)
     return render_template('feels.html',results=results)
