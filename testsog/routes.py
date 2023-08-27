@@ -37,14 +37,14 @@ def stand(id):
     print(link)
     return render_template("stand.html", title = "stand",results=results, image=image, link=link )
 
-@app.route('/samba')
+@app.route('/beebop')
 def about():
     conn = sqlite3.connect('song.db')
     cur = conn.cursor()
     cur.execute('SELECT * FROM song WHERE feel=3 ')
     results = cur.fetchall()
     print (results)
-    return render_template("samba.html", title = "samba",results=results)
+    return render_template("beebop.html", title = "samba",results=results)
 
 @app.route('/feels')
 def feels():

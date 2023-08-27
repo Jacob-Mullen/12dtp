@@ -57,8 +57,24 @@ body{
     color: #E3D4C8;
 }
 
+.rectxt
+{
+    margin-top: 535px;
+    position: fixed;
+    rotate: -90deg;
+    margin-left: -48px;
+
+}
+
+.clickmetxt
+{
+    margin-top: 535px;
+    position: fixed;
+    rotate: 90deg;
+    margin-left: 843px;
+}
+
 .txt{
-    background-color: #1d0053;
     color: #E3D4C8;
     width: 925px;
     height: 300px;
@@ -68,7 +84,6 @@ body{
 }
 
 .rec{
-    background-color: #1d0053;
     color: #E3D4C8;
     width: 925px;
     height: 300px;
@@ -97,7 +112,7 @@ margin-top: 25px;
 .img1{
     width: 250px;
     margin-top: 25px;
-    margin-left: 60px;
+    margin-left: 63px;
     }
 
 .img2{
