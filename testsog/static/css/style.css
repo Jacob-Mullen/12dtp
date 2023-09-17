@@ -1,6 +1,5 @@
 /* GLOBAL */
-
-/* HEADER */
+/* FONTS */
 h1{
     size: 100px;
 
@@ -11,10 +10,51 @@ h3{
     color: #E3D4C8;
 
 }
+h4{
+    font-size: 50px;
+    color: #E3D4C8;
+    margin-top: 50px;
 
+}
 /* NAV */
+.navbar{
+    margin-top: 25px;
+    }
+    
+/* LANDING PAGE MAIN */
+.landingpage{
+    margin-top: -15px;
+    margin-right: 25px;
+    padding: 0;
+    width: 1000px;
+    height: 850px;
+    position: fixed;
+    background-color: #E3D4C8;;
+    }
 
-/* main */
+.logo{
+    margin-left: 100px;
+    }
+
+.sowhat{
+    margin-top: -520px;
+    margin-left: 650px;
+    width: 250px;
+}
+
+.therealbook{
+    margin-top: -240px;
+    margin-left: 650px;
+    width: 250px;
+}
+
+.landingtext{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 590px;
+}
+
+/* STANDERDS MAIN */
 body{
     font-family: sans-serif;
     background-color: #E3D4C8;
@@ -57,38 +97,12 @@ body{
     color: #E3D4C8;
 }
 
-.rectxt
-{
-    margin-top: 535px;
-    position: fixed;
-    rotate: -90deg;
-    margin-left: -48px;
-
-}
-
-.clickmetxt
-{
-    margin-top: 535px;
-    position: fixed;
-    rotate: 90deg;
-    margin-left: 843px;
-}
-
 .txt{
     color: #E3D4C8;
     width: 925px;
     height: 300px;
     left: 600px;
     top:250px; 
-    position: fixed;
-}
-
-.rec{
-    color: #E3D4C8;
-    width: 925px;
-    height: 300px;
-    left: 600px;
-    top:600px; 
     position: fixed;
 }
 
@@ -99,15 +113,21 @@ body{
     margin-left: 5px;
 }
 
-.navbar{
-margin-top: 25px;
-}
-
 .score{
     width: 550px;
     margin-top: 55px;
     margin-left: 20px;
     }
+
+/* RECORDING IMAGES */
+.rec{
+    color: #E3D4C8;
+    width: 925px;
+    height: 300px;
+    left: 600px;
+    top:600px; 
+    position: fixed;
+}
 
 .img1{
     width: 250px;
@@ -127,38 +147,22 @@ margin-top: 25px;
     margin-top: 25px;
     margin-left: 20px;
     }
-
-.landingpage{
-    margin-top: -15px;
-    margin-right: 25px;
-    padding: 0;
-    width: 1000px;
-    height: 850px;
+    
+.rectxt
+{
+    margin-top: 430px;
     position: fixed;
-    background-color: #E3D4C8;;
-    }
+    rotate: -90deg;
+    margin-left: -48px;
 
-.logo{
-    margin-left: 100px;
-    }
-
-.sowhat{
-    margin-top: -520px;
-    margin-left: 650px;
-    width: 250px;
 }
 
-.therealbook{
-    margin-top: -240px;
-    margin-left: 650px;
-    width: 250px;
+.clickmetxt
+{
+    margin-top: 430px;
+    position: fixed;
+    rotate: 90deg;
+    margin-left: 843px;
 }
 
-.landingtext{
-    margin-top: 40px;
-    margin-left: 50px;
-    background-color: azure;
-    width: 590px;
-}
 
-/* FOOTER */
