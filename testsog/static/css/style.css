@@ -127,4 +127,38 @@ margin-top: 25px;
     margin-top: 25px;
     margin-left: 20px;
     }
+
+.landingpage{
+    margin-top: -15px;
+    margin-right: 25px;
+    padding: 0;
+    width: 1000px;
+    height: 850px;
+    position: fixed;
+    background-color: #E3D4C8;;
+    }
+
+.logo{
+    margin-left: 100px;
+    }
+
+.sowhat{
+    margin-top: -520px;
+    margin-left: 650px;
+    width: 250px;
+}
+
+.therealbook{
+    margin-top: -240px;
+    margin-left: 650px;
+    width: 250px;
+}
+
+.landingtext{
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: azure;
+    width: 590px;
+}
+
 /* FOOTER */

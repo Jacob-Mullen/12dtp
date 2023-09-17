@@ -55,13 +55,14 @@ def feels():
     print (results)
     return render_template('feels.html',results=results)
 
-@app.route('/pizza/<int:id>')
-def pizza(id):
-    conn=sqlite3.connect('pizza.db')
-    cur=conn.cursor()
-    cur.execute('SELECT * FROM pizza WHERE id=?',(id,))
-    pizza=cur.fetchone()
-    return render_template ('pizza.html', pizza=pizza)
+@app.route('/landingpage')
+def landingpage():
+    conn = sqlite3.connect('song.db')
+    cur = conn.cursor()
+    cur.execute('SELECT * FROM song WHERE feel=4 ')
+    results = cur.fetchone()
+    print (results)
+    return render_template('landingpage.html',results=results)
 
 
 if __name__ == "__main__":
