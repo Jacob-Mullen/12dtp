@@ -1,13 +1,37 @@
 /* GLOBAL */
+a.nav {
+    color: #E3D4C8;
+    text-decoration: none;
+  }
+  
+a.nav:hover {
+    color: #E3D4C8;
+    text-decoration: underline;
+  }
+
+a.link {
+    color: #532200;
+    text-decoration: none;
+    background: #E3D4C8;
+  }
+  
+a.link:hover {
+    color: #532200;
+    font-size: 150%;
+  }
+
+
 /* FONTS */
 h1{
     size: 100px;
 
 }
 
+
 h3{
     font-size: 40px;
     color: #E3D4C8;
+    text-decoration: none;
 
 }
 h4{
@@ -107,9 +131,8 @@ body{
 }
 
 .middlebit{
-    width: 300px;
+    width: 1000px;
     height: 25px;
-    background-color: #E3D4C8;;
     margin-left: 5px;
 }
 
