@@ -1,0 +1,191 @@
+/* GLOBAL */
+a.nav {
+    color: #E3D4C8;
+    text-decoration: none;
+  }
+  
+a.nav:hover {
+    color: #E3D4C8;
+    text-decoration: underline;
+  }
+
+a.link {
+    color: #532200;
+    text-decoration: none;
+    background: #E3D4C8;
+  }
+  
+a.link:hover {
+    color: #532200;
+    font-size: 150%;
+  }
+
+
+/* FONTS */
+h1{
+    size: 100px;
+
+}
+
+
+h3{
+    font-size: 40px;
+    color: #E3D4C8;
+    text-decoration: none;
+
+}
+h4{
+    font-size: 50px;
+    color: #E3D4C8;
+    margin-top: 50px;
+
+}
+/* NAV */
+.navbar{
+    margin-top: 25px;
+    }
+    
+/* LANDING PAGE MAIN */
+.landingpage{
+    margin-top: -15px;
+    margin-right: 25px;
+    padding: 0;
+    width: 1000px;
+    height: 850px;
+    position: fixed;
+    background-color: #E3D4C8;;
+    }
+
+.logo{
+    margin-left: 100px;
+    }
+
+.sowhat{
+    margin-top: -520px;
+    margin-left: 650px;
+    width: 250px;
+}
+
+.therealbook{
+    margin-top: -240px;
+    margin-left: 650px;
+    width: 250px;
+}
+
+.landingtext{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 590px;
+}
+
+/* STANDERDS MAIN */
+body{
+    font-family: sans-serif;
+    background-color: #E3D4C8;
+    color: #532200;
+    background: url(/static/image/sax.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.foreground{
+    margin-top: -15px;
+    margin-right: 25px;
+    padding: 0;
+    width: 1900px;
+    height: 850px;
+    position: fixed;
+    background-color: #E3D4C8;;
+}
+
+.mid{
+    background-color: #532200;
+    color: #E3D4C8;
+    width: 925px;
+    height: 805px;
+    left: 600px;
+    top:115px; 
+    position: fixed;
+}
+
+.sidebar{
+    padding: 0;
+    width: 300px;
+    height: 700px;
+    top:165px; 
+    position: fixed;
+    left: 1550px;
+    background-color: #532200;
+    color: #E3D4C8;
+}
+
+.txt{
+    color: #E3D4C8;
+    width: 925px;
+    height: 300px;
+    left: 600px;
+    top:250px; 
+    position: fixed;
+}
+
+.middlebit{
+    width: 1000px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.score{
+    width: 550px;
+    margin-top: 55px;
+    margin-left: 20px;
+    }
+
+/* RECORDING IMAGES */
+.rec{
+    color: #E3D4C8;
+    width: 925px;
+    height: 300px;
+    left: 600px;
+    top:600px; 
+    position: fixed;
+}
+
+.img1{
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 63px;
+    }
+
+.img2{
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 20px;
+    }
+
+
+.img3{
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 20px;
+    }
+    
+.rectxt
+{
+    margin-top: 430px;
+    position: fixed;
+    rotate: -90deg;
+    margin-left: -48px;
+
+}
+
+.clickmetxt
+{
+    margin-top: 430px;
+    position: fixed;
+    rotate: 90deg;
+    margin-left: 843px;
+}
+
+

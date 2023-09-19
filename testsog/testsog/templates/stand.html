@@ -1,0 +1,66 @@
+{% extends "layout.html"%}
+{% block contents %}
+{% for item in results %}
+
+
+
+<div class="foreground">
+    <div class="mid">
+      <h4><!-- this displays the Title of the song -->
+        {{item[8]}}
+      </h4>
+      <div class="txt"><!-- this displays the lyrics of the song -->
+        <h2>
+         {{item[9]}}
+        </h2>
+      </div> <!-- this displays the two sins -->
+      <div class="rectxt"><h2>RECORDINGS</h2></div>
+      <div class="clickmetxt"><h2>Click Me</h2></div>
+      <div class="rec">
+<!-- this displays the images that you can click on to see -->
+          <a href="{{link[1]}}"><img class="img1" src="{{image[1]}}"></a>
+          <a href="{{link[2]}}"><img class="img2" src="{{image[2]}}"></a>
+          <a href="{{link[3]}}"><img class="img3" src="{{image[3]}}"></a>
+
+      </div>
+    </div>
+<img class="score" src="{{item[5]}}">
+<!-- this displays the sheet music -->
+
+</div>
+
+
+<!-- this displays everything in the side bar -->
+<div class="sidebar">
+  <h1>
+        Info
+  </h1>
+  <div class="composer">
+    <h2>Writen By</h2>
+    <h3>
+          {{item[1]}}
+    </h3>
+  </div>
+  <div class="famous">
+    <h2>Made Famous By</h2>
+    <h3>
+          {{item[2]}}
+    </h2>
+  </div>
+  <div class="key">
+    <h2>Key Signiture</h2>
+    <h3>
+          {{item[3]}}
+    </h3>
+  </div>
+  <div class="timesig">
+    <h2>Time Signiture</h2>
+    <h3>
+          {{item[4]}}
+    </h3>
+  </div>
+</div>
+
+
+{% endfor %}
+{% endblock %}
